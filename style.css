@@ -1,0 +1,113 @@
+
+		.success{
+			width:100%;
+			padding:10px;
+			background-color: lightgreen;
+			color:white;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 2px;
+		}		
+		.error{
+			width:100%;
+			padding:10px;
+			background-color: #313131;
+			color:white;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 2px;
+		}		
+		.fena{
+			width:100%;
+			padding:10px;
+			background-color: black;
+			color:orange;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 2px;
+
+		}
+		.mesajlar{
+			position: absolute;
+			top:10px;
+			right:10px;
+			border-radius: 2px;
+			font-family:Tahoma, Geneva, Verdana, sans-serif;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	.sil{
+		position: relative;
+		right:-14px;
+		z-index: 9999;
+		background-color: tomato;
+		width: 75px;
+		padding:12px;
+		color:white;
+		font-family: Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 18px;
+		border-radius: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.list{
+		position: relative;
+		left:0px;
+		width:620px;
+		padding:13px;
+		background-color:#282828; 
+		color:white;
+		font-family: Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 18px;
+		border-radius: 4px;
+
+		
+	}
+	#ekle{
+		width:100%;
+		padding: 8px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#kapsa{
+		width:600px;
+	}
+	#formSubmit {
+		margin-left: 10px;
+
+	}
+	#formSubmit input{
+		width: 645px;
+		padding:12px;
+		background-color: lightgrey;
+		border:none;
+		outline: none;
+		border-radius: 4px;	
+		font-family: Tahoma, Geneva, Verdana, sans-serif;
+		font-size:17px;
+		box-sizing: border-box;
+		margin-left: 10px
+		
+	}
+	#formSubmit button{
+		position: relative;
+		top:-1px;
+		width: 100px;
+		padding:14px;
+		background-color: tomato;
+		border:none;
+		outline: none;
+		border-radius: 4px;	
+		font-size:16px;
+		margin-left:10px;
+
+
+		
+	}
+	.forms{
+		width:800px;
+	}
